@@ -20,7 +20,7 @@
 //ModbusIP object
 ModbusIP mb;
 String instruc="";
-long ts,ts1;
+long ts;
 int tankPerc=0;
 bool forward=true;
 uint16_t cbLed(TRegister* reg, uint16_t val) {
