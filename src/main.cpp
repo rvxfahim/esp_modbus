@@ -101,14 +101,7 @@ void loop() {
                 forward=true;
             } 
         }
-     
-       
-       
    }
-//    if (millis() > ts1 + 1000) {
-//        ts1 = millis();
-//        //Setting raw value (0-1024)
-//        Serial.println(instruc);
-//    }
+
    delay(10);
 }
