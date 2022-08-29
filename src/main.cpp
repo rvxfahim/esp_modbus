@@ -50,13 +50,13 @@ uint16_t cbString(TRegister* reg, uint16_t val){
 void setup() {
     Serial.begin(115200);
  
-    WiFi.begin("BAI 24G", "thabramu");
+    WiFi.begin("SSID", "Password");
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
         Serial.print(".");
     }
     ts = millis();
-    ts1 = millis();
+    
     //pinMode(2,OUTPUT);
     ledcSetup(0, 5000, 8);
     ledcAttachPin(2, 0);
